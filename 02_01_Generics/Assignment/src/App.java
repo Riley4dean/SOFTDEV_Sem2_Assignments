@@ -9,5 +9,10 @@ public class App {
         myInteger.set(100);
         System.out.println(myInteger.get());
 
+        Property<Boolean> myBoolean = new Property<Boolean>();
+        myBoolean.set(true);
+        System.out.println(myBoolean.get()); 
+        myBoolean.set(false);
+
     }
 }
