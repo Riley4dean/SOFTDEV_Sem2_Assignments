@@ -10,7 +10,7 @@ public class App {
         Path filePath = Paths.get(fileName);
         List<String> lines = Files.readAllLines(filePath);
         for (String i : lines){
-            System.out.println(i);
+            System.out.println(i); 
         }
         
     }
