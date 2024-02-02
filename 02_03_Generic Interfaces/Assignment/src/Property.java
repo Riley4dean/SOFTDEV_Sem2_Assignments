@@ -1,4 +1,4 @@
-public class Property<X extends Comparable<X>> implements Inequality<X>{
+public class Property<X extends Comparable<X>>{
     private X x;
 
     public Property(X x){
@@ -41,34 +41,4 @@ public class Property<X extends Comparable<X>> implements Inequality<X>{
     
 
 }
-    @Override
-    public boolean isGreaterthan(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isGreaterthan'");
-    }
-    @Override
-    public boolean isLessthan(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isLessthan'");
-    }
-    @Override
-    public boolean isEqual(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isEqual'");
-    }
-    @Override
-    public boolean isNotEqual(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isNotEqual'");
-    }
-    @Override
-    public boolean isGreaterThanOrEqual(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isGreaterThanOrEqual'");
-    }
-    @Override
-    public boolean isLessThanOrEqual(Property<X> other) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isLessThanOrEqual'");
-    }
-}
+ 
