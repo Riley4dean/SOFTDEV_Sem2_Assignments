@@ -16,7 +16,6 @@ public class App {
          Consumer<Integer> intPrinter = (number) ->System.out.println(number);
         intsPlus5.stream().forEach(intPrinter);
         intsDiv2.stream().forEach(intPrinter);
-        intsPlus5Div2.stream().forEach(intPrinter);
-        
+        intsPlus5Div2.stream().forEach(intPrinter); 
     }
 }
